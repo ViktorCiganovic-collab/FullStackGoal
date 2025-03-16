@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // For navigation
-import { Button } from 'react-bootstrap'; // For Bootstrap button styling
+import { Link } from 'react-router-dom'; 
+import { Button } from 'react-bootstrap'; 
 
 const Confirmdeleted = () => {
   return (
@@ -18,19 +18,19 @@ const Confirmdeleted = () => {
         className="my-4"
       />
 
-      {/* Message section */}
+   
       <div className="alert alert-info">
         <p>If this was a mistake, don't worry! You can always <Link to="/signup">re-register</Link> for the event.</p>
         <p>For any questions or further assistance, feel free to contact us at <strong>555-555-5555</strong>.</p>
+        <p>Thanks for being a part of our community. We hope to see you again!</p>
       </div>
 
-      {/* Button to redirect to the homepage or another useful page */}
+     
       <Link to="/" className="d-inline-block my-3">
         <Button variant="outline-primary" size="lg">Return to Homepage</Button>
-      </Link>
+      </Link>     
       
-      {/* Additional motivational message */}
-      <p className="mt-4 text-muted text-white">Thanks for being a part of our community. We hope to see you again!</p>
+   
     </div>
   );
 };
