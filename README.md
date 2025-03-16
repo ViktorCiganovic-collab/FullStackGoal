@@ -2,6 +2,8 @@
 
 This is a full-stack web application including server for managing event registrations. It allows users to register for events, cancel registrations, and view confirmation messages. The project includes a **React frontend** for user interaction and a **Node.js backend** for handling API requests and MongoDB database integration.
 
+Visit my webpage that I created here: https://fullstackgoal.onrender.com/
+
 ---
 
 ## Features
